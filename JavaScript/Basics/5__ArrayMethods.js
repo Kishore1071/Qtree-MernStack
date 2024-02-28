@@ -3,7 +3,7 @@
 
 const number = ["g", "q", 2]
 
-number[0] // gets the first value of the array
+console.log(number[0]) // gets the first value of the array
 
 number.push("w") // add as a last values of the array
 
@@ -21,15 +21,11 @@ number[0] = "Car"  // we can change the value of an index
 
 number.indexOf("q")  // to find the index of a value
 
- Array.isArray(number)// Type of array
+Array.isArray(number)// Type of array
 
 const fruits = ['Apple', 'Orange']
 
 let new_array = number.concat(fruits)  // add two array to make new array
-
-const two_dimensional_array = [[1,2], [3,4,5], [6,7]]
-
-let new_two_dimensional_array = two_dimensional_array.flat()  // Converts two dimensional array into single dimensional array
 
 let players = ['Rohit', "Virat", "Rahul", "Sehwag"]
 

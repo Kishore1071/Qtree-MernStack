@@ -32,9 +32,3 @@ console.log(mySet.size); // 2 (banana is removed)
 for (const item of mySet) {
     console.log(item);
 }
-
-// Type 2
-
-mySet.forEach(item => {
-    console.log(item);
-});

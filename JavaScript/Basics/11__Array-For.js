@@ -28,8 +28,8 @@ for (let fruit of fruits) {
 }
 
 
-// ForEach method
+// Map method
 
-fruits.forEach(function (fruit, index) {
+fruits.map((fruit, index) => {
     console.log("Element #" + index + ": " + fruit);
 });

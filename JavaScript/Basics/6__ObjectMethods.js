@@ -8,9 +8,6 @@ const person_details = {
     "date_of_birth": "1998-03-24",
     "designation": "Software Developer",
     "is_manager": false,
-    "fullname": function () {
-        return `${this.first_name} ${this.last_name}`
-    }
 }
 
 
@@ -35,17 +32,3 @@ person_details['first_name'] = "Kishore M"
 `Deleting Existing Properties`
 
 delete person_details.age
-
-
-
-`Accessing Existing Methods`
-
-person_details.fullname()  // or
-person_details['first_name']()
-
-
-`Add New Methods`
-
-person_details['get_age'] = function() {
-    return `Age of ${this.first_name} is ${this.age}`
-}
