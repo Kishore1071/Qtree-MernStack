@@ -54,7 +54,8 @@
 # Creating reports
 # Installing cors
 # Allowing cross origin with cors package
-# Creating Jwt 
+# Creating Jwt
+# Authentication 
 
 
 # [Web-Basics]
